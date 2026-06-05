@@ -46,6 +46,33 @@ All composition props are editable live in Remotion Studio via the Props panel. 
 | `sloganFontSize` | Font size for the closing slogan (px) |
 | `sloganTitleCase` | Automatically title-case the slogan text |
 
+### Example: cybersecurity theme
+
+The same template adapted for a security narrative — just swap the `ENTRIES` array:
+
+```ts
+const ENTRIES: TextEntry[] = [
+  { from: 8,   to:  57, lines: [[{ text: 'Endpoints ' }, { text: 'secured', color: G }]] },
+  { from: 57,  to: 106, lines: [[{ text: 'Traffic ' }, { text: 'clean', color: G }]] },
+  { from: 106, to: 155, lines: [[{ text: 'No ' }, { text: 'anomalies', color: G }]] },
+  { from: 155, to: 204, lines: [[{ text: 'Firewall ' }, { text: 'holding', color: G }]] },
+  { from: 204, to: 252, lines: [[{ text: 'All systems', color: G }, { text: ' clear' }]] },
+  { from: 259, to: 330, lines: [[{ text: 'Is it ' }, { text: 'contained', color: R }, { text: '?' }]] },
+  { from: 335, to: 375, lines: [[{ text: 'Is it ' }, { text: 'lateral', color: O }, { text: '?' }]] },
+  { from: 380, to: 418, lines: [[{ text: 'How ' }, { text: 'deep in', color: R }, { text: '?' }]] },
+  { from: 428, to: 468, lines: ['Without visibility:'] },
+  { from: 468, to: 553, lines: [[{ text: "Everyone's " }, { text: 'exposed', color: O }]] },
+  { from: 553, to: 658, lines: [[{ text: 'AI maps the blast radius', color: '#1A52A8' }]], sweep: true },
+  {
+    from: 668,
+    to: 880,
+    lines: ["AI doesn't stop the attack", "It stops the blindness"],
+    fadeOutFrames: 15,
+    professional: true,
+  },
+];
+```
+
 ### Changing the text captions
 
 The caption sequence is defined in the `ENTRIES` array in `src/components/TextOverlay.tsx`. Each entry has:
