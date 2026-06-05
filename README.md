@@ -46,6 +46,17 @@ All composition props are editable live in Remotion Studio via the Props panel. 
 | `sloganFontSize` | Font size for the closing slogan (px) |
 | `sloganTitleCase` | Automatically title-case the slogan text |
 
+### Changing the narrative with an agent
+
+Tell your agent what the video is about and it will rewrite the captions for you:
+
+```
+In src/components/TextOverlay.tsx, rewrite the ENTRIES array to tell a story about [your topic].
+Keep the same structure: 5 confident green-highlight lines, 3 escalating red/orange questions,
+a "Without X:" setup + orange punchline, a blue AI reveal line with sweep: true, and a
+two-line closing slogan with professional: true. Keep all frame ranges exactly as they are.
+```
+
 ### Example: cybersecurity theme
 
 The same template adapted for a security narrative — just swap the `ENTRIES` array:
