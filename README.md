@@ -15,7 +15,7 @@ A [Remotion](https://www.remotion.dev/) template for animated matrix grid videos
 Give this single line to Claude Code, Gemini, Codex, or any coding agent and it will know exactly what to do:
 
 ```
-Clone https://github.com/davidtweeto/template-matrix, run npm install, then edit the defaultProps in src/Root.tsx to set the watermark and slogan font, edit the ENTRIES array in src/components/TextOverlay.tsx to set your text captions, and run npm run dev to preview in Remotion Studio.
+Clone https://github.com/davidtweeto/template-matrix, run npm install, then edit the defaultProps in src/Root.tsx to set the slogan font, edit the ENTRIES array in src/components/TextOverlay.tsx to set your text captions, and run npm run dev to preview in Remotion Studio.
 ```
 
 For best results, also install the Remotion skill so your agent has deep Remotion domain knowledge:
