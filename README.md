@@ -34,8 +34,9 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser to preview in Remotion Studio.
 
 <p align="center">
-  <a href="assets/RemotionStudio01.png"><img src="assets/RemotionStudio01.png" width="49%" /></a>
-  <a href="assets/RemotionStudio02.png"><img src="assets/RemotionStudio02.png" width="49%" /></a>
+  <a href="assets/RemotionStudio01.png"><img src="assets/RemotionStudio01.png" width="100%" /></a>
+  <br/>
+  <a href="assets/RemotionStudio02.png"><img src="assets/RemotionStudio02.png" width="100%" /></a>
 </p>
 
 ## Customizing content
