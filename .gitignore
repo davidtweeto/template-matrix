@@ -1,4 +1,6 @@
 node_modules/
 out/
-public/sfx/*.mp3
-public/sfx/*.wav
+# Real Pixabay SFX are not redistributable — see README for download links.
+# silence.mp3 and the placeholder files committed here are silent stand-ins only.
+# Replace each file with the real download from Pixabay to enable audio.
+
