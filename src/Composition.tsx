@@ -16,13 +16,11 @@ export const MatrixCompositionSchema = z.object({
   sloganFont: z.enum(['roboto', 'playfair', 'montserrat', 'oswald', 'raleway']),
   sloganFontSize: z.number().int().min(20).max(200),
   sloganTitleCase: z.boolean(),
-  watermark: z.string(),
 });
 
 export const MatrixComposition: React.FC<z.infer<typeof MatrixCompositionSchema>> = ({
   fontSize, whiteStroke, blackStroke,
   sloganFont, sloganFontSize, sloganTitleCase,
-  watermark,
 }) => {
   const frame = useCurrentFrame();
 
@@ -71,22 +69,6 @@ export const MatrixComposition: React.FC<z.infer<typeof MatrixCompositionSchema>
         sloganTitleCase={sloganTitleCase}
       />
       <SoundEffects />
-      {watermark ? (
-        <div style={{
-          position: 'absolute',
-          bottom: 6,
-          right: 10,
-          fontFamily: 'Roboto, system-ui, sans-serif',
-          fontWeight: 400,
-          fontSize: 26,
-          color: '#000000',
-          opacity: 0.4,
-          pointerEvents: 'none',
-          letterSpacing: '0.02em',
-        }}>
-          {watermark}
-        </div>
-      ) : null}
     </AbsoluteFill>
   );
 };

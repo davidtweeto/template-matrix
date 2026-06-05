@@ -45,7 +45,6 @@ All composition props are editable live in Remotion Studio via the Props panel. 
 | `sloganFont` | Font for the closing slogan: `roboto`, `playfair`, `montserrat`, `oswald`, or `raleway` |
 | `sloganFontSize` | Font size for the closing slogan (px) |
 | `sloganTitleCase` | Automatically title-case the slogan text |
-| `watermark` | Watermark text in the bottom-right corner (empty string to hide) |
 
 ### Changing the text captions
 

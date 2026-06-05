@@ -20,7 +20,6 @@ export const RemotionRoot: React.FC = () => {
         sloganFont: "oswald" as const,
         sloganFontSize: 88,
         sloganTitleCase: true,
-        watermark: "tweeto",
       }}
     />
   );
