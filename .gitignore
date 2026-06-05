@@ -1,0 +1,4 @@
+node_modules/
+out/
+public/sfx/*.mp3
+public/sfx/*.wav
